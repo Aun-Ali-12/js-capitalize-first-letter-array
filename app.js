@@ -16,6 +16,7 @@ for (let i = 0; i < nameArr.length; i++) {
 
   let fullNameInArrayForm = fullName.split();
   console.log(fullNameInArrayForm);
+  document.write(`${fullNameInArrayForm} <br>`)
 } /*[ 'Aun' ]
 [ 'Faizan' ]
 [ 'Kashan' ]*/
