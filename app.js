@@ -1,5 +1,5 @@
-const nameArr = ["aun", "faizan", "kashan"];
-
+const nameArr = ["aun", "faizan", "kashan", "rizwan", "ayaan", "abbas"];
+let nameArray = [];
 for (let i = 0; i < nameArr.length; i++) {
   let nameInString = nameArr[i];
   // console.log(nameInString);
@@ -14,9 +14,9 @@ for (let i = 0; i < nameArr.length; i++) {
   fullName += nameFirstLetter + nameSecLetter;
   // console.log(fullName);
 
-  let fullNameInArrayForm = fullName.split();
-  console.log(fullNameInArrayForm);
-  document.write(`${fullNameInArrayForm} <br>`)
-} /*[ 'Aun' ]
-[ 'Faizan' ]
-[ 'Kashan' ]*/
+  nameArray.push(fullName);
+  console.log(fullName);
+  document.write(`${fullName} <br>`);
+} //[ 'Aun', 'Faizan', 'Kashan' ]
+
+console.log(nameArray);
