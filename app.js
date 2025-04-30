@@ -16,7 +16,6 @@ for (let i = 0; i < nameArr.length; i++) {
 
   nameArray.push(fullName);
   console.log(fullName);
-  // document.write(`${fullName} <br>`);
-} //[ 'Aun', 'Faizan', 'Kashan' ]
+}
 
 console.log(nameArray);
